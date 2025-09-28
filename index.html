@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get iintoo it today</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="main-wrapper">
+    <div class="left">
+      <img src="./assets/bg.jpg" alt="banner">
+    </div>
+    <div class="right">
+      <h2 class="title">Get iintoo it today</h2>
+      <br>
+      <p class="subtitle">There is no charge or obligation upon registration.</p>
+      <br>
+      <div class="social-buttons">
+        <button class="social-btn"> <img src="./assets/facebook.svg" alt="Facebook logo" width="24" height="24">Register with Facebook</button></a>
+        <button class="social-btn linkedin"> <img src="./assets/linkedin.svg" alt="LinkedIn Logo" width="24" height="24"> Register with LinkedIn</button>
+      </div>
+      <div class="or">OR</div>
+      <br>
+      <form autocomplete="off">
+        <div class="input-row">
+          <input type="email" placeholder="Email" required value="gus.goodwin@gmail.com">
+          <input type="tel" placeholder="Phone">
+        </div>
+        <br>
+        <div class="investor-section">
+          <label class="investor-label">What type of investor are you?</label>
+          <span style="display:block; color:#7B8A92; font: size 10px;; margin-bottom:6px;">
+            Select the type of investor you are below.
+          </span>
+          <br>
+          <div class="investor-radio-row">
+            <input type="radio" id="indiv" name="type" value="individual" checked>
+            <label for="indiv" data-tooltip="I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.">Individual</label>
+            <input type="radio" id="bus" name="type" value="business">
+            <label for="bus" data-tooltip="I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.">Business</label>
+            <input type="radio" id="ira" name="type" value="ira">
+            <label for="ira" data-tooltip="I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.">IRA</label>
+            <input type="radio" id="trust" name="type" value="trust">
+            <label for="trust" data-tooltip="I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.">Trust</label>
+          </div>
+        </div>
+        <br>
+        <div class="check-row">
+          <input type="checkbox" required>
+          <span>I agree to the terms and receiving notifications from iintoo
+            <span class="blue-link">View full terms</span>
+          </span>
+        </div>
+        <br>
+        <button class="btn-submit" type="submit" formaction="https://www.youtube.com/watch?v=N-kl2yUrG6A">Create Account</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
