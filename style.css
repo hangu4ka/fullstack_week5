@@ -1,16 +1,15 @@
 @font-face{ 
-	font-family: 'MyWebFont';
-	src: url('WebFont.eot');
-	src: url('WebFont.eot?iefix') format('eot'),
-	url('WebFont.woff') format('woff'),
-	url('WebFont.ttf') format('truetype'),
-	url('WebFont.svg#webfont') format('svg');
+	font-family: 'Barlow';
+	src: url('fonts/barlow/Barlow-Regular.otf');
+	src: url('fonts/barlow/Barlow-Regular.otf') format('eot'),
+	url('fonts/barlow/Barlow-Regular.otf') format('woff'),
+	url('fonts/barlow/Barlow-Extra\ Bold\ Italic.ttf') format('truetype'),
 }
 
 body {
   background: #eff6ff;
   margin: 0;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family: 'Barlow', Arial, sans-serif;
   color: #22436b;
 }
 .main-wrapper {
@@ -54,7 +53,7 @@ body {
   background: #fff;
 }
 .title {
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   font-size: 25x;
   font-weight: 600;
   margin-bottom: 4px;
@@ -62,7 +61,7 @@ body {
   color:#7B8A92;
 }
 .subtitle {
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   color: #7a95b6;
   margin-bottom: 32px;
   margin-top: 0;
@@ -82,7 +81,7 @@ body {
   padding: 10px 16px;
   border-radius: 4px;
   font-size: 14px;
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   border: none;
   outline: none;
   cursor: pointer;
@@ -96,7 +95,7 @@ body {
 .or {
   text-align: center;
   margin: 26px 0 14px 0;
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   color: #b8c7de;
   position: relative;
 }
@@ -118,7 +117,7 @@ body {
 .input-row input {
   flex: 1;
   padding: 13px;
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   font-size: 12px;
   color: #AFAFAF;
   border: 1px solid #EEEEEE;
@@ -135,7 +134,7 @@ body {
   margin: 22px 0 8px 0;
 }
 .investor-label {
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   color: #7B8A92;
   font-weight: 500;
   margin-bottom: 5px;
@@ -154,7 +153,7 @@ body {
 .investor-radio-row label {
   position: relative;
   cursor: pointer;
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   font-size: 16px;
   font-weight: 400;
   color: #2A4A5C;
@@ -188,7 +187,7 @@ body {
   min-width: 220px;
   background: #f6f8fc;
   color: #AFAFAF;
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   opacity: 0;
   visibility: hidden;
   border-radius: 6px;
@@ -207,7 +206,7 @@ body {
 }
 .check-row {
   margin-bottom: 18px;
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   font-size: 14px;
   color: #688;
   display: flex;
@@ -218,7 +217,7 @@ body {
   accent-color: pink;
 }
 .blue-link {
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'MyBarlow', Arial, sans-serif; 
   color: turquoise;
   font-size: 14px;
   text-decoration: underline;
@@ -232,7 +231,7 @@ body {
   border: none;
   border-radius: 7px;
   padding: 15px 0;
-  font-family: 'MyWebFont', Arial, sans-serif; 
+  font-family: 'Barlow', Arial, sans-serif; 
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
